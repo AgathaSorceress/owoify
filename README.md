@@ -10,12 +10,12 @@ Inspired by:
 # Usage
 Add this to ``Cargo.toml``:
 
-```
+```toml
 [dependencies]
 owoify = "0.1.3"
 ```
 ``example.rs``:  
-```
+```rust
 use owoify::OwOifiable;
 
 fn main() {
