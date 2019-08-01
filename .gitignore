@@ -1,5 +1,7 @@
-/target
-!/target/doc
+/target/debug
+/target/package
+/target/rls
+/target/.rustc_info.json
 /tests
 **/*.rs.bk
 Cargo.lock
