@@ -1,6 +1,6 @@
 [package]
 name = "owoify"
-version = "0.1.0"
+version = "0.1.1"
 description = "Text owoification library"
 license = "MIT"
 authors = ["EvilDead <EvilDeaaaadd@protonmail.com>"]
