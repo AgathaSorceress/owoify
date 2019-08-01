@@ -24,9 +24,17 @@ pub trait OwOifiable {
 }
 
 impl OwOifiable for String {
+    /// Owoifies a String
+    ///
+    /// # Examples
+    ///
+    /// ```
+    /// use use owoify::OwOifiable;
+    /// let owoified = String::from("Example text").owoify();
+    /// ```
     fn owoify(&self) -> Self {
         let mut rng = rand::thread_rng();
-        let faces = ["(・`ω´・)", ";;w;;", "owo", "UwU", ">w<", "^w^"];
+        let faces = ["(・`ω´・)", "OwO", "owo", "oωo", "òωó", "°ω°", "UwU", ">w<", "^w^"];
         let face = &format!(" {} ", faces[rng.gen_range(0, faces.len())]).to_owned();
         let pats: Vec<(&str, &str)> = vec![
             ("(?:r|l)", "w"),
