@@ -19,6 +19,7 @@ mod tests {
 }
 
 pub trait OwOifiable {
+    /// The owoification method
     fn owoify(&self) -> Self;
 }
 
