@@ -9,12 +9,12 @@ mod tests {
     fn owo() {
         let text = String::from("malfunction me mom.. t-till i break~~");
         let owoified = text.owoify();
-        println!("\t\t{}", owoified);
+        println!("\t{}", owoified);
     }
     #[test]
     fn all_match_owo() {
         let text = String::from("r l R L na Na NA ove !!");
-        println!("\t\t{}", text.owoify());
+        println!("\t{}", text.owoify());
     }
 }
 
@@ -41,7 +41,7 @@ impl OwOifiable for String {
             ("(?:R|L)", "W"),
             ("n([aeiou])", "ny$1"),
             ("N([aeiou])", "Ny$1"),
-            ("N([AEIOU])", "Ny$1"),
+            ("N([AEIOU])", "NY$1"),
             ("ove", "uv"),
             ("!+", face),
         ];

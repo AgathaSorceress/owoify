@@ -1,6 +1,6 @@
 [package]
 name = "owoify"
-version = "0.1.3"
+version = "0.1.4"
 description = "Text owoification library"
 repository = "https://github.com//owoify"
 documentation = "https://docs.rs/owoify/"
