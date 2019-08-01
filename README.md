@@ -12,7 +12,7 @@ Add this to ``Cargo.toml``:
 
 ```
 [dependencies]
-owoify = "0.1.0"
+owoify = "0.1.1"
 ```
 ``example.rs``:  
 ```
