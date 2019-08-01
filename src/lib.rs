@@ -29,7 +29,7 @@ impl OwOifiable for String {
     /// # Examples
     ///
     /// ```
-    /// use use owoify::OwOifiable;
+    /// use owoify::OwOifiable;
     /// let owoified = String::from("Example text").owoify();
     /// ```
     fn owoify(&self) -> Self {
