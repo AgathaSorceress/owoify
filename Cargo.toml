@@ -2,6 +2,7 @@
 name = "owoify"
 version = "0.1.1"
 description = "Text owoification library"
+readme = "README.md"
 license = "MIT"
 authors = ["EvilDead <EvilDeaaaadd@protonmail.com>"]
 edition = "2018"
