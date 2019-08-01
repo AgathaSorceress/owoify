@@ -1,4 +1,4 @@
 /target
+/tests
 **/*.rs.bk
 Cargo.lock
-/tests
