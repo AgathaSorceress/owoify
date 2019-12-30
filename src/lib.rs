@@ -42,6 +42,7 @@ impl OwOifiable for String {
             ("n([aeiou])", "ny$1"),
             ("N([aeiou])", "Ny$1"),
             ("N([AEIOU])", "NY$1"),
+            ("th", "d"),
             ("ove", "uv"),
             ("!+", face),
         ];
