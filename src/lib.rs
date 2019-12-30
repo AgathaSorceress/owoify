@@ -13,7 +13,7 @@ mod tests {
     }
     #[test]
     fn all_match_owo() {
-        let text = String::from("r l R L na Na NA ove !!");
+        let text = String::from("r l R L th na Na NA ove !!");
         println!("\t{}", text.owoify());
     }
 }
