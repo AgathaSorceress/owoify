@@ -35,7 +35,7 @@ impl OwOifiable for String {
     fn owoify(&self) -> Self {
         let mut rng = rand::thread_rng();
         let faces = ["(・`ω´・)", "OwO", "owo", "oωo", "òωó", "°ω°", "UwU", ">w<", "^w^"];
-        let face = &format!(" {} ", faces[rng.gen_range(0, faces.len())]).to_owned();
+        let face = &format!(" {} ", faces[rng.gen_range(0, faces.len())]);
         let pats: Vec<(&str, &str)> = vec![
             ("(?:r|l)", "w"),
             ("(?:R|L)", "W"),
